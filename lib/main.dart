@@ -118,31 +118,26 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
+                Container(
+                  height: 100,
+                  width: 200,
+                  color: Colors.blueGrey,
+                  child: const Center(
+                    child: Text(
+                      'Game zone',
+                      style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w500,
+                          color: Colors.yellow,
+                          backgroundColor: Colors.black),
+                    ),
+                  ),
+                )
               ],
             ),
             const SizedBox(
               height: 50,
               width: 50,
-            ),
-            Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Container(
-                      height: 100,
-                      width: 200,
-                      color: Colors.blueGrey,
-                      child: const Center(
-                        child: Text(
-                          'Game zone',
-                          style: TextStyle(
-                              fontSize: 24,
-                              fontWeight: FontWeight.w500,
-                              color: Colors.yellow,
-                              backgroundColor: Colors.black),
-                        ),
-                      ),
-                    )
-                  ],
             ),
             const SizedBox(
               width: 50,
